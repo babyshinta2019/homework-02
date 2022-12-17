@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<img src="images/contact-form/envelope.svg">
+    <h1 id="title">Let's get in touch</h1>
+  
+    <form id="contact-form">
+      <div class="form">
+        <label for="name" id="name-label">NAME</label>
+        <input type="text" id="name" name="name"  placeholder="Chuck Norris" required/>
+      </div>
+  
+      <div class="form">
+        <label for="email" id="email-label">EMAIL ADDRESS</label>
+        <input type="email" id="email" name="email" placeholder="chuck@roundhouse.com" required/>
+      </div>
+
+      <div class="form">
+        <label for="dropdown" id="dropdown-label">DEPARTMENT</label>
+        <select id="dropdown" name="role">
+        <option value="">Select a department</option>
+        <option value="student">HUMAN RESOURCE</option>
+        <option value="teacher">FINANCE</option> 
+        <option value="working">Others</option>
+       </select>
+      </div>
+  
+      <div class="form">
+        <label id="label-textarea">MESSAGE</label>
+  
+        <textarea name="textarea" placeholder="Enter your comment here.."></textarea>
+      </div>
+  
+  
+      <div class="form">
+        <input id="submit" type="submit" value="SEND MESSAGE">
+      </div>
+    </form>
+</body>
+</html>
